@@ -1,0 +1,204 @@
+body{
+    background: -webkit-linear-gradient(top,rgb(252, 248, 228), rgb(252, 250, 242),rgb(255, 255, 254));
+    /* rgb(250, 245, 221) */
+}
+.header{
+    /* width: 500px;
+    height: 300px;
+    border: 1px solid red; */
+    margin: 0 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .logo img{
+    width: 300px;
+    height: 180px;
+}
+.ad{
+    text-align: center;
+    font-family: LiSu;
+    font-size: 25px;
+    margin-top: 15px;
+    color: rgb(168, 166, 166);
+}
+.write{
+    text-align: center;
+    margin-top: 27px;
+    font-size: 40px;
+    font-family: FangSong;
+    font-weight: bold;
+    color: rgb(129, 129, 86);
+}
+
+.area{
+    width: 700px;
+    margin: 1em auto;
+}
+.area h2{
+    text-align: center;
+    font-size: 27px;
+    border-bottom: 1px solid rgb(143, 141, 141);
+    height: 18px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.area h2 span{
+    background: rgb(252, 249, 240);
+    padding: 0 15px;
+    font-family: KaiTi;
+    color: rgb(64, 87, 84);
+}
+
+.area .item{
+    width: 600px;
+    margin: 0 auto;
+}
+.area .item .item-area{
+    margin: 30px 100px;
+    position: relative;
+}
+.area .item .item-area .name:nth-child(1){
+    margin-top: 100px;
+}
+.area .item .item-area .name{
+    margin: 40px auto;
+}
+.area .item .item-area .photo{
+    height: 75px;
+    line-height: 75px;
+}
+.area .item .item-area .submitBtn{
+    height: 40px;
+    width: 60px;
+    background: #b7f8df;
+    color: rgb(8, 8, 8);
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 14px;
+    margin-left: 179px;
+}
+.area .item .item-area .name .pwd-if{
+    position: relative;
+    width: 200px;
+    height: 16px;
+    top: -27px;
+    left: 389px;
+    color: #999;
+}
+.area .item .item-area .name .pwd-if span{
+    color: red;
+    margin-right: 10px;
+}
+.area .item .item-area .photo #preview{
+    position: absolute;
+    top: 12px;
+    left: 30px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.area .item .item-area .photo #imgPicker{
+    position: absolute;
+    float: right;
+    width: 80px;
+    height: 50px;
+    top: 12px;
+    right: 168px;
+    border-radius: 10px;
+    opacity: 0;
+}
+.area .item .item-area .photo > button{
+    position: absolute;
+    top: 12px;
+    right: 168px;
+    width: 80px;
+    height: 50px;
+}
+/*统一文本框样式*/
+input[type="text"],input[type="password"]{
+    border: 1px solid #6d7a99;
+    width: 300px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    height: 40px;
+    text-indent: 1em;
+    font-size: 14px;
+    color: #606266;
+    font-family: "PingFngSC-Mdeimu";
+}
+input[type="text"]:hover,input[type="password"]:hover{
+    border-color: #681507;
+}
+input[type="text"]::placeholder,input[type="password"]::placeholder{
+    color: #ccc;
+}
+
+/*统一按钮样式*/
+button{
+    height: 40px;
+    background: #b7f8df;
+    color: rgb(8, 8, 8);
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 14px;
+    margin-left: 150px;
+}
+button:hover{
+    background: #33b4de;
+}
+button.fill{
+    width: 80px;
+    box-sizing: border-box;
+}
+
+/* 链接样式 */
+.area a{
+    color: #00a1d6;
+}
+.area .item .readme{
+    margin-top: -40px 0;
+    font-size: 15px;
+}
+.area .item .readme .checkbox{
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border: 1px solid #9ba4bb;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.area .item .readme input:checked+.checkbox{
+    border-color: #00a1d6;
+}
+.area .item .readme input:checked+.checkbox::after{
+    content: "";
+    display: block;
+    width: 7px;
+    height: 7px;
+    background: #00a1d6;
+    border-radius: 3px;
+    margin-left: 2.5px;
+    margin-top: 2.5px;
+}
+.area .item .readme input[type="checkbox"]{
+    display: none;
+}
+
+.area .txt{
+    text-align: right;
+    margin-top: 0;
+}
+.area .txt a:hover{
+    color: tomato;
+}
+
+/* 上传图片 */
+.picture .photo img{
+    width: 50px; 
+    height: 50px; 
+    vertical-align: middle; 
+    margin-left: 50px;
+}

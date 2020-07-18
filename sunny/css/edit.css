@@ -1,0 +1,80 @@
+.back{
+    position: relative;
+    top: 30px;
+    left: 200px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    background-color: orange;
+    font-size: 30px;
+    font-weight: bold;
+}
+.user{
+    width: 600px;
+    height: 500px;
+    margin: 0 auto;
+    padding: 10px 0 0 20px;
+    border: 2px solid orange;
+}
+.user .user-edit{
+    font-size: 20px;
+    font-weight: bold;
+    color: orange;
+    padding: 10px 0 20px 0;
+}
+.user .content{
+    height: 300px;
+}
+.user .content input{
+    width: 200px;
+    margin-top: 20px;
+    border: 2px solid #2DB7FF;
+}
+.user .content input[type='submit']{
+    width: 100px;
+    height: 35px;
+    font-weight: bold;
+    color: #fff;
+    margin-left: 95px;
+    border-radius: 10px;
+    background-color: #2DB7FF;
+}
+
+.book{
+    height: 500px;
+    width: 900px;
+    margin: 0 auto;
+}
+.book{
+    height: 400px;
+}
+.book h1{
+    font-size: 18px;
+    height: 50px;
+    line-height: 50px;
+    font-weight: bold;
+    color: orange;
+}
+.book .add{
+    height: 300px;
+}
+.book .add input{
+    width: 200px;
+    margin-top: 15px;
+    border: 2px solid #2DB7FF;
+}
+.book .add .addLeft{
+    width: 300px;
+    margin-left: 20px;
+}
+.book .add .addRight{
+    width: 500px;
+}
+.book .add input[type="submit"]{
+    height: 50px;
+    background-color:#2DB7FF;
+    font-size: 18px;
+    color: #fff;
+    margin-top: 59px;
+    margin-left: 78px;
+}

@@ -1,0 +1,79 @@
+.top-book_detail{
+    background: url(../img/5.jfif)no-repeat center;
+    background-size: 100% 100%;
+}
+
+.content{
+    width: 1200px;
+}
+.content .head{
+    width: 100%;	
+    height: 500px;
+    padding: 20px 30px;
+    box-sizing: border-box;
+}
+.head .leftHead{
+    float: left;	
+    height: 100%;
+    width: 300px;
+    text-align: center;
+}
+.head .leftHead img{
+    margin-top: 20px;
+    height: 255px;
+    width: 200px;
+    transition: .3s;
+}
+.head .leftHead img:hover{
+    transform: scale(1.2);
+}
+.head .rightHead{
+    float: right;
+    width: 600px;
+    height: 100%;
+    padding: 35px 0 0 30px;
+    margin-right: 100px;
+    box-sizing: border-box;
+}
+.head .rightHead .author{
+    margin: 10px 0;
+    color: #999;
+}
+.head .rightHead .money{
+    color: orange;
+    margin: 15px 0;
+    font-weight: bold;
+}
+.head .rightHead .read{
+    background: orange;
+    width: 65px;
+    padding: 5px 5px;
+    margin: 15px 0;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.head .rightHead a.love{
+    position: absolute;
+    top: 245px;
+    left: 750px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.head .rightHead img.love{
+    width: 20px;
+    height: 20px;
+    transition: .2s;
+}
+.head .rightHead img.love:hover{
+    transform: scale(1.2);
+}
+.head .rightHead .details{
+    margin: 10px 0;
+    line-height: 1.5em;
+    font-size: 14px;
+    color: #999;
+}
+.head .rightHead .like{
+    font-size: 13px;
+}

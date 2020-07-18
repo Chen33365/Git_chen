@@ -1,0 +1,73 @@
+@keyframes ratoIn{
+    0%{
+      transform: translate(-800px,-800px);
+    }
+    100%{
+      transform: translate(0,0);
+    }
+  }
+@-webkit-keyframes ratoIn{
+0%{
+    transform: translate(-800px,-800px);
+}
+100%{
+    transform: translate(0,0);
+}
+}
+@-moz-keyframes ratoIn{
+0%{
+    transform: translate(-800px,-800px);
+}
+100%{
+    transform: translate(0,0);
+}
+}
+@-ms-keyframes ratoIn{
+0%{
+    transform: translate(-800px,-800px);
+}
+100%{
+    transform: translate(0,0);
+}
+}
+
+.connect{
+    position: relative;
+    top: -16px;
+    height: 630px;
+    width: 99.8%;
+    background: url(../img/connect.jpg)no-repeat;
+    background-size:  100% 100%;
+    background-position: center center;
+    opacity: .5;
+}
+.connect .content{
+    width: 800px;
+    margin: 0 auto;
+    animation: ratoIn 1s;
+}
+.connect .content h1{
+    font-size: 23px;
+    padding: 20px 0;
+    font-weight: bold;
+    border-bottom: 2px solid orangered;
+    color: #000;
+}
+.connect .content h2{
+    font-size: 18px;
+    font-weight: bold;
+    margin : 15px  0;
+}
+.connect .content h3{
+    color: #666;
+    margin: 5px 5px 0 20px;
+}
+.connect .content p{
+    color: black;
+    margin: 5px 5px 0 20px; 
+    padding: 5px 0; 
+}
+
+.footer{
+    display: none;
+}

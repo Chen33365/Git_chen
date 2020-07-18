@@ -1,0 +1,124 @@
+.clearfix {
+  content: "";
+  display: block;
+  clear: both;
+  overflow: hidden;
+}
+.tp1 {
+  display: none;
+}
+.Box{
+  width: 100%;
+  background: url(../img/liat.jpg) no-repeat;
+  background-size: cover;
+  margin-top: -20px;
+  opacity: .9;
+}
+.poem{
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 25px;
+  font-family: KaiTi;
+}
+.poem p:first-child{
+  top: 258px;
+  left: 311px;
+  position: absolute;
+  width: 20px;
+}
+.poem p:last-child{
+  top: 328px;
+  left: 235px;
+  position: absolute;
+  width: 20px;
+}
+.hot-list {
+  width: 500px;
+  padding: 20px 5px;
+  margin: 5px auto 0;
+  border: 1px solid #ccc;
+}
+.hot-list .headSection {
+  margin-bottom: 10px;
+}
+.hot-list .headSection .hot {
+  float: left;
+  font-size: 18px;
+  font-weight: bold;
+}
+.hot-list .headSection .change {
+  float: right;
+  display: block;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  color: blueviolet;
+  cursor: pointer;
+}
+.showSection li{
+    padding: 5px 10px;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.showSection li:hover{
+    background-color: orange;
+}
+.showSection .number {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  background-color: blueviolet;
+  color: #fff;
+  text-align: center;
+}
+.showSection .mes {
+  float: right;
+  color: orange;
+  font-weight: bold;
+}
+/* .showSection .mes::after {
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  content: "";
+  border: 1px solid orange;
+} */
+.footer{
+  display: none;
+}
+.hot-list .number-page{
+  height: 50px;
+  width: 264px;
+  text-align: center;
+  line-height: 50px;
+  margin: 10px auto;
+}
+.hot-list .number-page span{
+  display: inline-block;
+  width: 25px;
+  height: 20px;
+  margin-top: 15px;
+  text-align: center;
+  line-height: 20px;
+  background-color: orange;
+  border: 1px solid red;
+  
+  border-radius: 5px;
+  z-index: 2;
+}
+.hot-list .number-page .page-left{
+  float: left;
+}
+.hot-list .number-page .item-page{
+  position: relative;
+  top: -30px;
+  left: -21px;
+  margin-left: 45px;
+  text-align: center;
+}
+.hot-list .number-page .page-right{
+  float: right;
+}

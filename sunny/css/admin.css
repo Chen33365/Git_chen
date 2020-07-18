@@ -1,0 +1,240 @@
+.admin{
+    height: 500px;
+}
+.admin .adminLeft{
+    width: 200px;
+    height: 100%;
+}
+.admin .adminRight{
+    width: 900px;
+    height: 100%;
+}
+.admin .adminLeft ul{
+    padding-top: 20px;
+    border: 2px solid orange;
+}
+.admin .adminLeft ul li{
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    color: #999;
+    font-weight: bold;
+    text-align: center;
+    transition: .3s;
+    overflow: hidden;
+}
+.admin .adminLeft ul li:hover{
+    background-color: #2EBBFF;
+    transform: scale(1.1);
+    color: #fff;
+}
+.admin .adminLeft ul li.active{
+    background-color: #2EBBFF;
+    transform: scale(1.1);
+    color: #fff;
+}
+.admin .adminRight .user{
+    display: none;
+    border: 2px solid orange;
+}
+.admin .adminRight .user .user-title{
+    height: 50px;
+    line-height: 50px;
+    margin-top: 20px;
+    background-color: #F2F2F2;
+}
+.admin .adminRight .user .user-title li{
+    float: left;
+    width: 150px;
+    margin-right: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+}
+.admin .adminRight .user .user-content{
+    height: 350px;
+    border: 1px solid red;
+}
+.admin .adminRight .user .user-content li{
+    height: 50px;
+    border-bottom: 1px solid orange;
+    transition: .1s;
+}
+.admin .adminRight .user .user-content li:hover{
+    background-color: #F3FBFE;
+}
+.admin .adminRight .user .user-content li > div{
+    float: left;
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    margin-right: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    color: #666;
+}
+.admin .adminRight .user .user-content li > div > a{
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    color: #fff;
+}
+.admin .adminRight .user .user-content li > div .user-office{
+    background-color: #2DB7FF;
+}
+.admin .adminRight .user .user-content li > div .user-delete{
+    background-color: #FE5D5E;
+}
+.admin .adminRight .bookList{
+    display: block;
+    padding: 0 15px;
+    border: 2px solid orange;
+}
+.admin .adminRight .bookList .adminSearch{
+    width: 300px;
+    margin-top: 20px;
+}
+.admin .adminRight .bookList .Btn{
+    padding: 7px;
+    background-color: orange;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.admin .adminRight .bookList .bookList-title{
+    height: 50px;
+    line-height: 50px;
+    margin-top: 20px;
+    background-color: #F2F2F2;
+    /* border: 1px solid red;    */
+}
+.admin .adminRight .bookList .bookList-title li{
+    float: left;
+    width: 150px;
+    margin-right: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+}
+.admin .adminRight .bookList .bookList-content{
+    height: 350px;
+}
+.admin .adminRight .bookList .bookList-content li{
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid orange;
+    transition: .1s;
+    white-space: nowrap;
+}
+.admin .adminRight .bookList .bookList-content li div:first-child{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+.admin .adminRight .bookList .bookList-content li:hover{
+    background-color: #F3FBFE;
+}
+
+.admin .adminRight .bookList .bookList-content li > div{
+    float: left;
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    margin-right: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    color: #666;
+}
+.admin .adminRight .bookList .bookList-content li > div > a{
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    color: #fff;
+}
+.admin .adminRight .bookList .bookList-content li > div .user-office{
+    background-color: #2DB7FF;
+}
+.admin .adminRight .bookList .bookList-content li > div .user-delete{
+    background-color: #FE5D5E;
+}
+.admin .bookList .number-page{
+    height: 50px;
+    width: 264px;
+    text-align: center;
+    line-height: 50px;
+    margin-left: 145px;
+}
+.admin .bookList .number-page span{
+    display: inline-block;
+    width: 25px;
+    height: 20px;
+    margin-top: 15px;
+    text-align: center;
+    line-height: 20px;
+    background-color: orange;
+    border: 1px solid red;
+    
+    border-radius: 5px;
+    z-index: 2;
+}
+.admin .bookList .number-page .page-left{
+    float: left;
+}
+.admin .bookList .number-page .item-page{
+    position: relative;
+    top: -30px;
+    left: -21px;
+    margin-left: 45px;
+    text-align: center;
+}
+.admin .bookList .number-page .page-right{
+    float: right;
+}
+
+
+
+
+.admin .adminRight .news{
+    height: 400px;
+    display: none;
+    border: 2px solid orange;
+}
+.admin .adminRight .news h1{
+    font-size: 18px;
+    height: 50px;
+    line-height: 50px;
+    margin-left: 20px;
+    font-weight: bold;
+    color: orange;
+}
+.admin .adminRight .news .add{
+    height: 300px;
+}
+.admin .adminRight .news .add input{
+    width: 200px;
+    margin-top: 15px;
+    border: 2px solid #2DB7FF;
+}
+.admin .adminRight .news .add .addLeft{
+    width: 300px;
+    margin-left: 20px;
+}
+.admin .adminRight .news .add .addRight{
+    width: 500px;
+}
+.admin .adminRight .news .add input[type="submit"]{
+    height: 50px;
+    background-color:#2DB7FF;
+    font-size: 18px;
+    color: #fff;
+    margin-top: 59px;
+    margin-left: 78px;
+}
+
+.footer{
+    display: none;
+}
